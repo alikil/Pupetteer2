@@ -1,0 +1,10 @@
+{"message":"start!","level":"info"}
+{"message":"Json Data Added","level":"info"}
+{"message":"Account Created","level":"info"}
+{"message":"#1 Reg Page loaded","level":"info"}
+{"message":"#2 Reg second Page loaded","level":"info"}
+{"message":"#3 Reg third Page loaded","level":"info"}
+{"message":"Reg Complete!","level":"info"}
+{"message":"Activation Link","level":"info"}
+{"message":"Activation Link =>http://email-tracking.tmforum.org/track/click/30287300/www.tmforum.org?p=eyJzIjoiWjlKRWl0RWF1dkJxem5ZcDcySlRrVmlEbHdNIiwidiI6MSwicCI6IntcInVcIjozMDI4NzMwMCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50bWZvcnVtLm9yZ1xcXC8_cGFnZT1nZl9hY3RpdmF0aW9uJmtleT04MGE1OWZkZTFmNGZlOWVkXCIsXCJpZFwiOlwiZjJjMDZjODVjZjI4NDQ4YzkzNGRmYzFkZGI4YzI5NTRcIixcInVybF9pZHNcIjpbXCI0N2I4OWM1ZWRjYjM4NzI2MzUwMTI4MWI2OGM0MWUyMTZlMGRmNDY1XCJdfSJ9","level":"info"}
+{"message":"Activation Complete!","level":"info"}
