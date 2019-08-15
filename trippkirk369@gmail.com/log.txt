@@ -1,0 +1,9 @@
+{"message":"start!","level":"info"}
+{"message":"Json Data Added","level":"info"}
+{"message":"Account Created","level":"info"}
+{"message":"Activation Link","level":"info"}
+{"message":"Activation Link =>http://email-tracking.tmforum.org/track/click/30287300/www.tmforum.org?p=eyJzIjoiMVJ3UlZpaHFacFdVVExseEtOZFNOOEZJMDNrIiwidiI6MSwicCI6IntcInVcIjozMDI4NzMwMCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50bWZvcnVtLm9yZ1xcXC8_cGFnZT1nZl9hY3RpdmF0aW9uJmtleT0yYWUwZDc0Y2UyYzhhYjQzXCIsXCJpZFwiOlwiNThkMDUyY2VlY2ZkNGJkODkxZWIxYTg4Nzk0NzEzMzlcIixcInVybF9pZHNcIjpbXCI0N2I4OWM1ZWRjYjM4NzI2MzUwMTI4MWI2OGM0MWUyMTZlMGRmNDY1XCJdfSJ9","level":"info"}
+{"message":"start!","level":"info"}
+{"message":{"status":"success","email":"trippkirk369@gmail.com","passtomail":"iYX1OQuHAl","userName":"Creola23","password":"MUWxhz8iCEPbyTM","firstName":"Domenico","lastName":"Kessler","phoneNumber":"1-786-509-6850","jobTitle":"District Functionality Associate","CompanyName":"Goldner LLC"},"level":"info"}
+{"message":"Account Parsed","level":"info"}
+{"message":"#1 Reg Page loaded","level":"info"}

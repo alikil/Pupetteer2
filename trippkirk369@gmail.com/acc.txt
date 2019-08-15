@@ -1,0 +1,1 @@
+{"status":"success","email":"trippkirk369@gmail.com","passtomail":"iYX1OQuHAl","userName":"Creola23","password":"MUWxhz8iCEPbyTM","firstName":"Domenico","lastName":"Kessler","phoneNumber":"1-786-509-6850","jobTitle":"District Functionality Associate","CompanyName":"Goldner LLC"}

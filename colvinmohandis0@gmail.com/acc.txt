@@ -1,0 +1,1 @@
+{"status":"success","email":"colvinmohandis0@gmail.com","passtomail":"a2RGCCIfMM","userName":"Pamela34","password":"GmODPUyQScXU5ti","firstName":"Jamison","lastName":"Auer","phoneNumber":"1-503-366-6629","jobTitle":"Regional Marketing Architect","CompanyName":"Walter, Rice and Hartmann"}
