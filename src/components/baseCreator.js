@@ -3,7 +3,7 @@ const fs = require('fs');
 const logger = require('../components/loger')
 exports.parseAcc = function(email,passtomail) {    
     return new Promise((resolve, reject) => {
-        const accpre = fs.readFileSync(`./${email}/acc.txt`,'utf8')
+        const accpre = fs.readFileSync(`/accounts/${email}/acc.txt`,'utf8')
         const user = JSON.parse(accpre)
         const accountNewData = [
             process.env.email = `${email}`,
@@ -43,7 +43,7 @@ exports.createAcc = async function (email,passtomail) {
             "CompanyName":CompanyName
         }
         const accArrayWrite = JSON.stringify(accArray)
-        fs.writeFile(`./${email}/acc.txt`, accArrayWrite, function(err) {if(err) {return console.log(err);}})
+        fs.writeFile(`/accounts/${email}/acc.txt`, accArrayWrite, function(err) {if(err) {return console.log(err);}})
         logger.logger("Account Created",email)
         const accountNewData = [
             process.env.email = `${email}`,

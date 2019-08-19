@@ -21,14 +21,7 @@
     "faker": "^4.1.0",
     "fs": "0.0.1-security",
     "imap-simple": "^4.3.0",
-    "inquirer": "^6.5.1",
-    "node": "^12.8.0",
-    "prompt": "^1.0.0",
-    "prompt-list": "^3.2.0",
-    "prompt-sync": "^4.1.7",
-    "prompts": "^2.2.1",
     "puppeteer": "^1.19.0",
-    "webpack": "^4.39.2",
     "winston": "^3.2.1"
   },
   "devDependencies": {}

@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const logger = require("./loger")
 exports.tmforum = async(targetPage,email) => {
     return new Promise(async(resolve, reject) => {
-    const browser = await puppeteer.launch({headless: false, defaultViewport:{width:1280,height:800}});
+    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox'], headless: true, defaultViewport:{width:1280,height:800}});
     const page = await browser.newPage();
     await page.goto(targetPage);
     await page.setViewport({width: 1280, height: 800});
@@ -31,7 +31,10 @@ exports.tmforum = async(targetPage,email) => {
     await logger.logger("#2 Reg second Page loaded",email);
     await page.waitFor(3000);
     await screenshotTake.screenshot("03_regPageCompany.png",page,email)    
-    await page.click('input[id="gform_next_button_6_31"]')
+    await page.click('input[id="gform_next_button_6_31"]').catch(()=> {
+        logger.logger("Already registered",email)
+        process.exit()
+    })
     await page.waitFor(3000);
     await logger.logger("#3 Reg third Page loaded",email);
     await screenshotTake.screenshot("04_regPageAdditions.png",page,email)
@@ -44,8 +47,8 @@ exports.tmforum = async(targetPage,email) => {
     });
 }
 exports.tmforumActivation = async(email,activationLink) => {
-    return new Promise(async(resolve, reject) => {   
-        const browser = await puppeteer.launch({headless: false, defaultViewport:{width:1280,height:800}});
+    return new Promise(async(resolve, reject) => {
+        const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox'], headless: true, defaultViewport:{width:1280,height:800}});
         const page = await browser.newPage();
         await page.goto(activationLink);
         await page.waitFor(5000);
